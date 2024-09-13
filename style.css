@@ -1,0 +1,42 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+@font-face{
+	font-family: terminus;
+	src: url(Terminus.ttf);
+}
+@font-face{
+	font-family: terminusbold;
+	src: url(TerminusB.ttf);
+	font-weight: bold;
+}
+body {
+  background-color: DarkSlateBlue;
+  color: white;
+  font-family: terminus, monospace;
+  font-size: 16px;
+}
+h1{
+	font-family: terminusbold;
+	font-size: 32px;
+}
+h2{
+	font-family: terminusbold;
+	font-size: 24px;
+}
+a:link {
+  color: pink;
+}
+a:visited {
+  color: red;
+}
+.topnav {
+  font-size:24px;
+  text-align:center;
+}
+.center {
+  text-align: center;
+}
+.content {
+	margin: 20px;
+}
